@@ -6,9 +6,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const db = mysql.createConnection({
-  host: "epussd.cankoz9ihj2m.us-west-1.rds.amazonaws.com",
-  user: "EpDev1",
-  password: "moneymoney101",
+  host: "epussd.coonohzoplm6.us-west-1.rds.amazonaws.com",
+  user: "EPDev",
+  password: "Mothermother111666",
   database: "ep_foundation",
 });
 
